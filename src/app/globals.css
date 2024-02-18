@@ -3,27 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --swiper-pagination-color:white;
+  --swiper-navigation-size: 24px !important;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #070d0e;
+  color: white;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #1a2224;
+  border-radius: 4px;
+}
+
+.swiper-button-prev,
+.swiper-button-next
+{
+  color: white !important;
+  font-weight: bold;
+}
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+nav {
+  background-color: #1a2224;
+}
+
+.bg-nav {
+  background-color: #1a2224;
+}
+
+@media (width<600px) {
+  .navbar-content  {
+    background-color: inherit;
+    flex-flow: column;
+    height: 100%;
+    width: 260px;
+    padding: 72px 16px 0;
+    transition: 150ms ease;
+
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+  }
 }
 
 @layer utilities {
