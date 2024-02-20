@@ -1,10 +1,15 @@
 import VideoData from "@/store/data";
 import Category from "./Category/page";
 import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const SimilarVideos = () => {
   const { category, id } = useParams();
-  const filteredData = VideoData()[category].filter((movie) => movie.id != id);
+  const [filteredData, setFilteredData] = useState([]);
+  useEffect(() => {
+    const data = VideoData()[category].filter((movie) => movie.id != id);
+    setFilteredData(data);
+  }, []);
   return (
     <>
       {filteredData.length > 0 && (
