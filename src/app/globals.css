@@ -44,7 +44,7 @@ nav {
   background-color: #1a2224;
 }
 
-@media (width<600px) {
+@media (width<768px) {
   .navbar-content  {
     background-color: inherit;
     flex-flow: column;

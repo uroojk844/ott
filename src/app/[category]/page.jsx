@@ -21,7 +21,7 @@ const Details = () => {
         <Link href="/">
           <FaArrowLeft />
         </Link>
-        <span className="font-[600] text-lg">{category.normalize()}</span>
+        <span className="font-[600] text-lg">{category}</span>
       </nav>
 
       <div className="p-4 grid grid-cols-3 gap-4 overflow-scroll no-scrollbar">

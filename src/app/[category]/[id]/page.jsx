@@ -19,7 +19,7 @@ const Details = () => {
 
   return (
     <section>
-      <nav className="p-4 flex items-center gap-4">
+      <nav className="p-4 flex items-center gap-4 capitalize">
         <Link href="/">
           <FaArrowLeft />
         </Link>

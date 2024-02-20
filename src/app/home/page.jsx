@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <>
       <NavBar />
-      {/* <Sliders /> */}
+      <Sliders />
       <div className="py-6">
         {/* <Category title="Recent uploads" /> */}
         {Object.keys(VideoData()).map((category, index) => {

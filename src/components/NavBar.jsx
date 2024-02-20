@@ -22,7 +22,7 @@ const NavBar = () => {
       name: "Kids",
     },
     {
-      path: "/tv",
+      path: "/shows",
       name: "TV Shows",
     },
     {
@@ -41,8 +41,8 @@ const NavBar = () => {
     <nav className="sticky top-0 z-20 max-sm:p-4 p-6 text-white flex items-center">
       <LogoWithName />
       <div
-        className={`sm:ml-24 flex gap-8 navbar-content ${
-          !open && "max-sm:-translate-x-full"
+        className={`md:ml-24 flex gap-8 navbar-content ${
+          !open && "max-md:-translate-x-full"
         }`}
       >
         {links.map((link, index) => (
@@ -62,7 +62,7 @@ const NavBar = () => {
         <FaBars
           onClick={toggleNav}
           size={20}
-          className="sm:hidden cursor-pointer"
+          className="md:hidden cursor-pointer"
         />
       </div>
     </nav>

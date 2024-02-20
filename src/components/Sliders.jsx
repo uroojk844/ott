@@ -15,7 +15,8 @@ const Sliders = () => {
       modules={[Pagination, Navigation]}
       className="w-full aspect-video"
     >
-      {VideoData().map((movie, index) => {
+      {Object.values(VideoData()).flat().map((movie, index) => {
+        if (index > 4) return;
         return (
           <SwiperSlide key={index}>
             <img

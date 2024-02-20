@@ -44,6 +44,59 @@ const VideoData = () => {
         trailer: "cGfWwTIGPys",
         length: "1h 32m",
       },
+      {
+        id: 5,
+        name: "Misson 70",
+        description:
+          "The mysterious past of a husband takes his happy family to a hell home, the revenge arena of a soul. A soul who was messed over in the name of love enmeshes the present of the family with the past. The Final Night is the saga of a wife ready to fight anything or anyone to save her family, pitted against this soul.",
+        poster: "mission_70.jpg",
+        poster_wide: "mission_70_wide.jpg",
+        trailer: "cGfWwTIGPys",
+        length: "1h 32m",
+      },
+      {
+        id: 8,
+        name: "lahore daries",
+        description:
+          "The mysterious past of a husband takes his happy family to a hell home, the revenge arena of a soul. A soul who was messed over in the name of love enmeshes the present of the family with the past. The Final Night is the saga of a wife ready to fight anything or anyone to save her family, pitted against this soul.",
+        poster: "lahore_daries.jpg",
+        poster_wide: "lahore_daries_wide.jpg",
+        trailer: "cGfWwTIGPys",
+        length: "1h 32m",
+      },
+    ],
+    // tv shows
+    "shows": [
+      {
+        id: 6,
+        name: "Khachaak",
+        description:
+          "The mysterious past of a husband takes his happy family to a hell home, the revenge arena of a soul. A soul who was messed over in the name of love enmeshes the present of the family with the past. The Final Night is the saga of a wife ready to fight anything or anyone to save her family, pitted against this soul.",
+        poster: "Khachaak.jpg",
+        poster_wide: "Khachaak_wide.jpg",
+        trailer: "cGfWwTIGPys",
+        length: "1h 32m",
+      },
+      {
+        id: 7,
+        name: "Nishabd Shooter",
+        description:
+          "The mysterious past of a husband takes his happy family to a hell home, the revenge arena of a soul. A soul who was messed over in the name of love enmeshes the present of the family with the past. The Final Night is the saga of a wife ready to fight anything or anyone to save her family, pitted against this soul.",
+        poster: "nishabd_shooter.jpg",
+        poster_wide: "nishabd_shooter_wide.jpg",
+        trailer: "cGfWwTIGPys",
+        length: "1h 32m",
+      },
+      {
+        id: 8,
+        name: "Saza",
+        description:
+          "The mysterious past of a husband takes his happy family to a hell home, the revenge arena of a soul. A soul who was messed over in the name of love enmeshes the present of the family with the past. The Final Night is the saga of a wife ready to fight anything or anyone to save her family, pitted against this soul.",
+        poster: "saza.jpg",
+        poster_wide: "saza_wide.jpg",
+        trailer: "cGfWwTIGPys",
+        length: "1h 32m",
+      },
     ],
   };
 
