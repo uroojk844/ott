@@ -17,9 +17,9 @@ const Category = ({ showTitle = true, title }) => {
       )}
 
       <div className="p-4 grid grid-cols-3 gap-4 overflow-scroll no-scrollbar">
-        {videos?.map((video, i) => (
-          <CategoryCard key={i} category={title} id={video.id} />
-        ))}
+        {videos?.map((video, i) => {
+          return <CategoryCard key={i} category={title} id={video.id} />;
+        })}
       </div>
     </section>
   );

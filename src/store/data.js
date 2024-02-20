@@ -66,14 +66,14 @@ const VideoData = () => {
       },
     ],
     // tv shows
-    "shows": [
+    shows: [
       {
         id: 6,
         name: "Khachaak",
         description:
           "The mysterious past of a husband takes his happy family to a hell home, the revenge arena of a soul. A soul who was messed over in the name of love enmeshes the present of the family with the past. The Final Night is the saga of a wife ready to fight anything or anyone to save her family, pitted against this soul.",
-        poster: "Khachaak.jpg",
-        poster_wide: "Khachaak_wide.jpg",
+        poster: "khachaak.jpg",
+        poster_wide: "khachaak_wide.jpg",
         trailer: "cGfWwTIGPys",
         length: "1h 32m",
       },

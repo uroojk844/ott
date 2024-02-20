@@ -5,9 +5,6 @@ import SimilarVideos from "@/components/Similar";
 import Sliders from "@/components/Sliders";
 import VideoData from "@/store/data";
 const HomePage = () => {
-  // const categories = VideoData();
-  // const filteredData = categories.map((m) => year);
-
   return (
     <>
       <NavBar />
