@@ -6,12 +6,14 @@ import { useEffect, useState } from "react";
 
 const CategoryCard = ({ category, id }) => {
   const params = useParams();
-  if (id == params.id) return;
-  
+
   const [videoData, setVideoData] = useState();
+
   useEffect(() => {
     setVideoData(VideoData()[category].find((v) => v.id == id));
   }, []);
+
+  if (id == params.id) return;
 
   return (
     <Link href={`/${category}/${id}`} className="relative">
